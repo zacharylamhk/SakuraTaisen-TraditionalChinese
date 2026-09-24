@@ -24,18 +24,36 @@
 
 ## 🚀 使用方法 (How to Play)
 
-補丁是基於 Internet Archive 中 Dreamcast GDI Japan 內的Sakura Taisen v1.010 (2000)(Sega)(JP) 而制定
-把 日文 IMAGE 分別放入CD1 和CD2 資料夾內
-再按 CD1_PATCH.BAT 和CD2_PATCH.BAT 就會建立中文IMAGE
+### 1. 映像檔準備與補丁套用 (Image Preparation and Patching)
+本專案補丁是基於 Internet Archive 中 Dreamcast GDI Japan 內的 `Sakura Taisen v1.010 (2000)(Sega)(JP)` 版本而制定。
 
+請依照以下步驟套用補丁：
+1. 準備好對應版本的日文遊戲映像檔（IMAGE）。
+2. 將日文 IMAGE 分別放入對應的資料夾內：
+   * 將 CD1 的日文 IMAGE 放入 `CD1` 資料夾內。
+   * 將 CD2 的日文 IMAGE 放入 `CD2` 資料夾內。
+3. 執行批次檔來建立中文 IMAGE：
+   * 點擊執行 `CD1_PATCH.BAT`。
+   * 點擊執行 `CD2_PATCH.BAT`。
+
+正確的檔案與資料夾配置結構應如下所示（可參考附圖）：
+```text
 CD1\cd1.cht.v0.6.patch
-<日文IMAGE CD1>
+CD1\<日文IMAGE CD1>
 CD2\cd2.cht.v0.6.patch
-<日文IMAGE CD2>
+CD2\<日文IMAGE CD2>
 CD1_PATCH.BAT
 CD2_PATCH.BAT
 cd-patcher.exe
+```
 
-## ⚠️ 免責聲明 (Disclaimer)
+### 2. 模擬器遊玩 (Play with Emulator)
+準備支援 Dreamcast 的模擬器（例如：Flycast, Redream 等）。
 
+透過模擬器載入剛剛建立好的中文遊戲映像檔即可開始遊玩。
+
+☕ 支持與贊助 (Donation)
+如果您喜歡這個專案，並希望支持後續的開發與維護，歡迎透過 PayPal 掃碼贊助！
+(qrcode.png)
+⚠️ 免責聲明 (Disclaimer)
 本專案僅供程式技術研究、字體移植測試與學習交流使用，遊戲本體及文本版權歸原遊戲公司與原漢化團隊所有。請玩家務必支持並購買正版遊戲，請勿將本專案用於任何商業營利用途。
