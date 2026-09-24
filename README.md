@@ -24,11 +24,17 @@
 
 ## 🚀 使用方法 (How to Play)
 
-1. 準備支援 Dreamcast 的模擬器（例如：[Flycast](https://github.com/flyinghead/flycast), Redream 等）。
+補丁是基於 Internet Archive 中 Dreamcast GDI Japan 內的Sakura Taisen v1.010 (2000)(Sega)(JP) 而制定
+把 日文 IMAGE 分別放入CD1 和CD2 資料夾內
+再按 CD1_PATCH.BAT 和CD2_PATCH.BAT 就會建立中文IMAGE
 
-2. 準備並套用本專案補丁後的 DC 版《櫻花大戰》遊戲映像檔。
-
-3. 透過模擬器載入遊戲映像檔即可開始遊玩。
+CD1\cd1.cht.v0.6.patch
+<日文IMAGE CD1>
+CD2\cd2.cht.v0.6.patch
+<日文IMAGE CD2>
+CD1_PATCH.BAT
+CD2_PATCH.BAT
+cd-patcher.exe
 
 ## ⚠️ 免責聲明 (Disclaimer)
 
